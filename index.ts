@@ -53,7 +53,7 @@ interface IVoiceChannelEffectSendEvent {
 
 const EAGLE = "🦅";
 const EAGLE_URL =
-    "https://raw.githubusercontent.com/MeguminSama/VencordPlugins/main/plugins/moyai/moyai.mp3";
+    "https://raw.githubusercontent.com/ChristiaanUytterhoeven/eagle/main/eagle-rahhh.mp3";
 
 const settings = definePluginSettings({
     volume: {
