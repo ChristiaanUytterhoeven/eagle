@@ -38,13 +38,13 @@ interface IReactionAdd {
     channelId: string;
     messageId: string;
     messageAuthorId: string;
-    userId: "195136840355807232";
+    userId: string;
     emoji: ReactionEmoji;
 }
 
 interface IVoiceChannelEffectSendEvent {
     type: string;
-    emoji?: ReactionEmoji; // Just in case...
+    emoji?: ReactionEmoji;
     channelId: string;
     userId: string;
     animationType: number;
